@@ -40,6 +40,7 @@ builder.build({
             icon: "./src/assets/images/icon.png",
             target: [{
                 target: "AppImage",
+                arch: ["x64"]
             }, {
                 target: "tar.gz",
                 arch: ["x64"]
